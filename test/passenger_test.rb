@@ -4,8 +4,8 @@ require './lib/passenger'
 
 class PassengerTest < Minitest::Test
   def setup
-  @charlie = Passenger.new({"name" => "Charlie", "age" => 18})
-  @taylor = Passenger.new({"name" => "Taylor", "age" => 12})
+    @charlie = Passenger.new({"name" => "Charlie", "age" => 18})
+    @taylor = Passenger.new({"name" => "Taylor", "age" => 12})
   end
 
   def test_it_exists
